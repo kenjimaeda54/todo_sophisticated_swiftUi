@@ -10,7 +10,7 @@ import AlertToast
 
 
 struct Home: View {
-	//MARK: - Properties
+	//MARK: -Properties
 	@State private var gridLayout: [GridItem] = [GridItem(.flexible())]
 	@State private var gridColumn = 3.0
 	@State private var  activitiesSelected: ActivitiesModel? = nil
@@ -18,6 +18,8 @@ struct Home: View {
 	@State private var heightSafeArea = 10
 	@State private var showToast = false
 	
+	
+	//MARK: -Function
 	func switchGridLayout()  {
 		gridLayout = Array(repeating: .init(.flexible()), count: Int(gridColumn))
 	}
@@ -42,12 +44,13 @@ struct Home: View {
 				ZStack {
 					
 					ScrollView{
-						Text("Chosse Acitivy")
+						Text("Chosse Activy")
 							.foregroundColor(ColorsApp.secondaryColor)
 							.font(.custom("Inter-Black", size: 23))
 						Text("Click here to see your activities")
 							.font(.custom("Inter-Light", size: 17))
 							.foregroundColor(ColorsApp.blue50)
+							.padding(.top,2)
 						Divider()
 							.frame(height:1)
 							.overlay(ColorsApp.blue50)
@@ -99,13 +102,17 @@ struct Home: View {
 					AlertToast(type: .error(Color.red), title: "You need to choose at one task")
 					
 				}
-				
+				.onAppear {
+					switchGridLayout()
+				}
+				.onDisappear(perform: {
+					print("ola")
+					activitiesSelected = nil
+				})  // Precisam estar dentro do navigation stack
 			} // NavigationStack
 			
 		} // Geometric
-		.onAppear {
-			switchGridLayout()
-		}
+		
 		.toolbar(.hidden,for: .navigationBar)
 		
 	}
