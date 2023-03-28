@@ -9,19 +9,19 @@ import Foundation
 
 
 let gridActivities = [
-  ActivitiesModel(id: 1, title: "Pedal", image: "bike"),
-	ActivitiesModel(id: 2, title: "Reading", image: "book"),
-	ActivitiesModel(id: 3, title: "Wake Up", image: "clock"),
-	ActivitiesModel(id: 4, title: "Gamimg", image: "gaming"),
-	ActivitiesModel(id: 5, title: "Play Guitar", image: "music"),
-	ActivitiesModel(id: 6, title: "Painting", image: "paiting"),
-	ActivitiesModel(id: 7, title: "Party", image: "party"),
-	ActivitiesModel(id: 8, title: "Loving", image: "romance"),
-	ActivitiesModel(id: 9, title: "Jogging", image: "run"),
-	ActivitiesModel(id: 10, title: "Shopping", image: "shopping"),
-	ActivitiesModel(id: 11, title: "Skating", image: "skate"),
-	ActivitiesModel(id: 12, title: "Trading", image: "trading"),
-	ActivitiesModel(id: 13, title: "Drink", image: "water"),
-	ActivitiesModel(id: 14, title: "Working", image: "working"),
-	ActivitiesModel(id: 15, title: "Writing", image: "writer")
+  CategoryActivities(id: 1, title: "Pedal", image: "bike"),
+	CategoryActivities(id: 2, title: "Reading", image: "book"),
+	CategoryActivities(id: 3, title: "Wake Up", image: "clock"),
+	CategoryActivities(id: 4, title: "Gamimg", image: "gaming"),
+	CategoryActivities(id: 5, title: "Play Guitar", image: "music"),
+	CategoryActivities(id: 6, title: "Painting", image: "paiting"),
+	CategoryActivities(id: 7, title: "Party", image: "party"),
+	CategoryActivities(id: 8, title: "Loving", image: "romance"),
+	CategoryActivities(id: 9, title: "Jogging", image: "run"),
+	CategoryActivities(id: 10, title: "Shopping", image: "shopping"),
+	CategoryActivities(id: 11, title: "Skating", image: "skate"),
+	CategoryActivities(id: 12, title: "Trading", image: "trading"),
+	CategoryActivities(id: 13, title: "Drink", image: "water"),
+	CategoryActivities(id: 14, title: "Working", image: "working"),
+	CategoryActivities(id: 15, title: "Writing", image: "writer")
 ]

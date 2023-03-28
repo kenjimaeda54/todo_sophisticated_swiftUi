@@ -1,16 +1,18 @@
 //
-//  AcitivesModel.swift
+//  ActivitiesModel.swift
 //  Todo_SwiftUi_Sophisticated
 //
-//  Created by kenjimaeda on 06/03/23.
+//  Created by kenjimaeda on 07/03/23.
 //
 
 import Foundation
+import RealmSwift
 
-
-struct ActivitiesModel: Identifiable  {
-	let id: Int;
-	let title: String;
-	let image: String;
+class ActivitiesModel: Object,ObjectKeyIdentifiable  {
+	
+	@Persisted(primaryKey: true) var _id: ObjectId
+	@Persisted var idCategoryActivy = 0
+	@Persisted var date =  ""
+	@Persisted var descriptionActivy = ""
 	
 }

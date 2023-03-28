@@ -25,7 +25,7 @@ struct ActivitiesView: View {
 				  
 			}
 			.padding()
-			.frame(width: 100,height: 100)
+			.frame(width: 95,height: 95)
 			.background(
 				Circle()
 					.strokeBorder(itemSelected ? ColorsApp.blue100 : ColorsApp.whiteColor,lineWidth: 1)

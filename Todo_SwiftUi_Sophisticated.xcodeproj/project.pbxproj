@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		811DC7B629D314EC0041ED4B /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811DC7B529D314EC0041ED4B /* ButtonDefault.swift */; };
 		819DF72229B7F5AB007333F4 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 819DF72129B7F5AB007333F4 /* Realm */; };
 		819DF72429B7F5AB007333F4 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 819DF72329B7F5AB007333F4 /* RealmSwift */; };
 		819DF72629B7F677007333F4 /* ActivitiesDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819DF72529B7F677007333F4 /* ActivitiesDetails.swift */; };
 		819DF72C29B80DD5007333F4 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 819DF72B29B80DD5007333F4 /* AlertToast */; };
+		819DF72E29B81978007333F4 /* ActivitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819DF72D29B81978007333F4 /* ActivitiesModel.swift */; };
 		81DD8FC429B6BE2800092CD0 /* Todo_SwiftUi_SophisticatedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DD8FC329B6BE2800092CD0 /* Todo_SwiftUi_SophisticatedApp.swift */; };
 		81DD8FC629B6BE2800092CD0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DD8FC529B6BE2800092CD0 /* Home.swift */; };
 		81DD8FC829B6BE2900092CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81DD8FC729B6BE2900092CD0 /* Assets.xcassets */; };
@@ -27,11 +29,13 @@
 		81DD8FEA29B6C25400092CD0 /* ColorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DD8FE929B6C25400092CD0 /* ColorsApp.swift */; };
 		81DD8FEC29B6C97300092CD0 /* ActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DD8FEB29B6C97300092CD0 /* ActivitiesView.swift */; };
 		81DD8FEE29B6D12F00092CD0 /* gridActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DD8FED29B6D12F00092CD0 /* gridActivities.swift */; };
-		81DD8FF129B6D15800092CD0 /* ActivitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DD8FF029B6D15800092CD0 /* ActivitiesModel.swift */; };
+		81DD8FF129B6D15800092CD0 /* CategoryActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DD8FF029B6D15800092CD0 /* CategoryActivities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		811DC7B529D314EC0041ED4B /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
 		819DF72529B7F677007333F4 /* ActivitiesDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesDetails.swift; sourceTree = "<group>"; };
+		819DF72D29B81978007333F4 /* ActivitiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActivitiesModel.swift; path = Todo_SwiftUi_Sophisticated/App/ActivitiesModel.swift; sourceTree = SOURCE_ROOT; };
 		81DD8FC029B6BE2800092CD0 /* Todo_SwiftUi_Sophisticated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo_SwiftUi_Sophisticated.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81DD8FC329B6BE2800092CD0 /* Todo_SwiftUi_SophisticatedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_SwiftUi_SophisticatedApp.swift; sourceTree = "<group>"; };
 		81DD8FC529B6BE2800092CD0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -50,7 +54,7 @@
 		81DD8FE929B6C25400092CD0 /* ColorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsApp.swift; sourceTree = "<group>"; };
 		81DD8FEB29B6C97300092CD0 /* ActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActivitiesView.swift; path = Todo_SwiftUi_Sophisticated/App/ActivitiesView.swift; sourceTree = SOURCE_ROOT; };
 		81DD8FED29B6D12F00092CD0 /* gridActivities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = gridActivities.swift; path = Todo_SwiftUi_Sophisticated/App/gridActivities.swift; sourceTree = SOURCE_ROOT; };
-		81DD8FF029B6D15800092CD0 /* ActivitiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActivitiesModel.swift; path = Todo_SwiftUi_Sophisticated/App/ActivitiesModel.swift; sourceTree = SOURCE_ROOT; };
+		81DD8FF029B6D15800092CD0 /* CategoryActivities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryActivities.swift; path = Todo_SwiftUi_Sophisticated/App/CategoryActivities.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				81DD8FEB29B6C97300092CD0 /* ActivitiesView.swift */,
+				811DC7B529D314EC0041ED4B /* ButtonDefault.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,7 +165,8 @@
 		81DD8FEF29B6D13C00092CD0 /* models */ = {
 			isa = PBXGroup;
 			children = (
-				81DD8FF029B6D15800092CD0 /* ActivitiesModel.swift */,
+				81DD8FF029B6D15800092CD0 /* CategoryActivities.swift */,
+				819DF72D29B81978007333F4 /* ActivitiesModel.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -254,11 +260,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				81DD8FEA29B6C25400092CD0 /* ColorsApp.swift in Sources */,
-				81DD8FF129B6D15800092CD0 /* ActivitiesModel.swift in Sources */,
+				811DC7B629D314EC0041ED4B /* ButtonDefault.swift in Sources */,
+				81DD8FF129B6D15800092CD0 /* CategoryActivities.swift in Sources */,
 				81DD8FC629B6BE2800092CD0 /* Home.swift in Sources */,
 				81DD8FC429B6BE2800092CD0 /* Todo_SwiftUi_SophisticatedApp.swift in Sources */,
 				81DD8FEE29B6D12F00092CD0 /* gridActivities.swift in Sources */,
 				81DD8FEC29B6C97300092CD0 /* ActivitiesView.swift in Sources */,
+				819DF72E29B81978007333F4 /* ActivitiesModel.swift in Sources */,
 				819DF72629B7F677007333F4 /* ActivitiesDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

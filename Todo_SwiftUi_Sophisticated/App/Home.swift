@@ -13,7 +13,7 @@ struct Home: View {
 	//MARK: -Properties
 	@State private var gridLayout: [GridItem] = [GridItem(.flexible())]
 	@State private var gridColumn = 3.0
-	@State private var  activitiesSelected: ActivitiesModel? = nil
+	@State private var  activitiesSelected: CategoryActivities? = nil
 	@State var goWhenTrue: Bool = false
 	@State private var heightSafeArea = 10
 	@State private var showToast = false
@@ -34,7 +34,7 @@ struct Home: View {
 		
 	}
 	
-	func handleSelecteItem(activity: ActivitiesModel) {
+	func handleSelecteItem(activity: CategoryActivities) {
 		activitiesSelected = activity
 	}
 	
@@ -62,33 +62,21 @@ struct Home: View {
 								// precisa implementar o navigation view em volta
 								Button(action:  { handleSelecteItem(activity: it) }) {
 									ActivitiesView(imageString:  it.image, title:  it.title, itemSelected: activitiesSelected?.id == it.id)
-										.navigationDestination(isPresented: $goWhenTrue) {
-											ActivitiesDetails(activies: it)
-										}
 									
 								}
 								
 							}
-							
+							.navigationDestination(isPresented: $goWhenTrue) {
+								
+								ActivitiesDetails(categoryActivies: $activitiesSelected)
+								
+							}
 						}
 					} // ScroolView
 					
 					
-					Button(action: handleSelectActivity) {
-						Text("Get Started")
-							.font(.custom("Inter-Regular", size: 19))
-							.foregroundColor(ColorsApp.whiteColor)
-						
-					}
-					.frame(width: 220,height: 50)
-					.background(
-						ColorsApp.secondaryColor
-							.cornerRadius(10)
-					).background(
-						ColorsApp.secondaryColor
-							.cornerRadius(10)
-					)
-					.offset(y: 300)
+					ButtonDefault(titleButton: "Get Started", actionButton: handleSelectActivity)
+						.offset(y: 300)
 					
 				}// Stack
 				.padding(.top, geometry.safeAreaInsets.top + 20)
@@ -106,7 +94,6 @@ struct Home: View {
 					switchGridLayout()
 				}
 				.onDisappear(perform: {
-					print("ola")
 					activitiesSelected = nil
 				})  // Precisam estar dentro do navigation stack
 			} // NavigationStack
