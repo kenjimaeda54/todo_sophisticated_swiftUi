@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		811DC7B629D314EC0041ED4B /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811DC7B529D314EC0041ED4B /* ButtonDefault.swift */; };
+		8172729929D4F2980089E058 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 8172729829D4F2980089E058 /* FSCalendar */; };
+		818B907A29D3A1FB00A3C889 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818B907929D3A1FB00A3C889 /* Calendar.swift */; };
 		819DF72229B7F5AB007333F4 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 819DF72129B7F5AB007333F4 /* Realm */; };
 		819DF72429B7F5AB007333F4 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 819DF72329B7F5AB007333F4 /* RealmSwift */; };
 		819DF72629B7F677007333F4 /* ActivitiesDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819DF72529B7F677007333F4 /* ActivitiesDetails.swift */; };
@@ -34,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		811DC7B529D314EC0041ED4B /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
+		818B907929D3A1FB00A3C889 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		819DF72529B7F677007333F4 /* ActivitiesDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesDetails.swift; sourceTree = "<group>"; };
 		819DF72D29B81978007333F4 /* ActivitiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActivitiesModel.swift; path = Todo_SwiftUi_Sophisticated/App/ActivitiesModel.swift; sourceTree = SOURCE_ROOT; };
 		81DD8FC029B6BE2800092CD0 /* Todo_SwiftUi_Sophisticated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo_SwiftUi_Sophisticated.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				819DF72C29B80DD5007333F4 /* AlertToast in Frameworks */,
+				8172729929D4F2980089E058 /* FSCalendar in Frameworks */,
 				819DF72429B7F5AB007333F4 /* RealmSwift in Frameworks */,
 				819DF72229B7F5AB007333F4 /* Realm in Frameworks */,
 			);
@@ -71,11 +75,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7072A59BD734C9F117D11702 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		81DD8FB729B6BE2800092CD0 = {
 			isa = PBXGroup;
 			children = (
 				81DD8FC229B6BE2800092CD0 /* Todo_SwiftUi_Sophisticated */,
 				81DD8FC129B6BE2800092CD0 /* Products */,
+				7072A59BD734C9F117D11702 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +136,7 @@
 			children = (
 				81DD8FEB29B6C97300092CD0 /* ActivitiesView.swift */,
 				811DC7B529D314EC0041ED4B /* ButtonDefault.swift */,
+				818B907929D3A1FB00A3C889 /* Calendar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,6 +204,7 @@
 				819DF72129B7F5AB007333F4 /* Realm */,
 				819DF72329B7F5AB007333F4 /* RealmSwift */,
 				819DF72B29B80DD5007333F4 /* AlertToast */,
+				8172729829D4F2980089E058 /* FSCalendar */,
 			);
 			productName = Todo_SwiftUi_Sophisticated;
 			productReference = 81DD8FC029B6BE2800092CD0 /* Todo_SwiftUi_Sophisticated.app */;
@@ -223,6 +237,7 @@
 			packageReferences = (
 				819DF72029B7F5AB007333F4 /* XCRemoteSwiftPackageReference "realm-swift" */,
 				819DF72A29B80DD5007333F4 /* XCRemoteSwiftPackageReference "AlertToast" */,
+				8172729729D4F2980089E058 /* XCRemoteSwiftPackageReference "FSCalendar" */,
 			);
 			productRefGroup = 81DD8FC129B6BE2800092CD0 /* Products */;
 			projectDirPath = "";
@@ -268,6 +283,7 @@
 				81DD8FEC29B6C97300092CD0 /* ActivitiesView.swift in Sources */,
 				819DF72E29B81978007333F4 /* ActivitiesModel.swift in Sources */,
 				819DF72629B7F677007333F4 /* ActivitiesDetails.swift in Sources */,
+				818B907A29D3A1FB00A3C889 /* Calendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +488,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		8172729729D4F2980089E058 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		819DF72029B7F5AB007333F4 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-swift.git";
@@ -491,6 +515,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		8172729829D4F2980089E058 /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8172729729D4F2980089E058 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
 		819DF72129B7F5AB007333F4 /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 819DF72029B7F5AB007333F4 /* XCRemoteSwiftPackageReference "realm-swift" */;

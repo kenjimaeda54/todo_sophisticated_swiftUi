@@ -12,21 +12,9 @@ struct ActivitiesDetails: View {
 	@Binding  var categoryActivies: CategoryActivities?
 	@State private var  activies: CategoryActivities? = nil
 	@State private var textField = ""
-	@State private var openDatePicker = false
 	@State private var date = Date()
 	@State private var showingDatePicker = false
-	let  startDate = Calendar.current.startOfDay(for: Date())
-	//se não fizer abaixo como propriedade computada ira reclamar , pois preciso que start date esteja pronto
-	//	When should I use a Computed Property?
-	//	It’s important to understand when you should use a Computed Property over a stored property. Use it when:
-	//
-	//	It depends on other properties
-	//	You’re defining the property inside an extension
-	//	The property is an access point to another object without disclosing it fully
-	//https://www.avanderlee.com/swift/computed-property/#:~:text=Computed%20properties%20are%20part%20of,computes%20its%20property%20upon%20request.
-	var  endDate: Date  {
-		Calendar.current.date(byAdding: DateComponents(year: 1), to: startDate)?.addingTimeInterval(-1) ?? Date()
-	}
+	
 	
 	func handleAddActivy() {
 		
@@ -34,9 +22,8 @@ struct ActivitiesDetails: View {
 	
 	func handleOpenDatePicker() {
 		showingDatePicker.toggle()
-		print(startDate,endDate)
 	}
-
+	
 	
 	
 	var body: some View {
@@ -58,8 +45,6 @@ struct ActivitiesDetails: View {
 									.foregroundColor(ColorsApp.secondaryColor)
 							}
 							
-							
-							
 						}//HStack
 						.padding(.vertical,10)
 						.padding(.horizontal,7)
@@ -78,24 +63,31 @@ struct ActivitiesDetails: View {
 					.background(ColorsApp.whiteColor)
 					.clipShape(RoundedRectangle(cornerRadius: 7,style: .continuous))
 					Spacer()
-					
 					ButtonDefault(titleButton: "Add Activity", actionButton: handleAddActivy)
 						.offset(y: -30)
-					if(showingDatePicker) {
-						DatePicker("", selection: $date, in:  Date()...,displayedComponents: [.date])
-							.datePickerStyle(.wheel)
-						 
-					}
+					
 					
 				}// VStack
 				.padding(.top,10)
 				.padding(.horizontal,20)
 				.background(ColorsApp.primaryColor)
-				
+				.sheet(isPresented: $showingDatePicker) {
+					CalendarRepresentable()
+						.padding()
+						.background(
+							RoundedRectangle(cornerRadius: 25.0)
+								.foregroundColor(.white)
+								.shadow(color: Color.black.opacity(0.2), radius: 10,x: 0.0,y: 0.0)
+						)
+						.frame(height: 350)
+						.padding()
+				}
 				
 				
 				
 			}// NavigationStck
+			
+			
 			
 		} // Geometry
 		.toolbar(.hidden,for: .navigationBar)
