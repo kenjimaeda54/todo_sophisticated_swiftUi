@@ -27,7 +27,6 @@ struct Home: View {
 	
 	func handleSelectActivity()  {
 		if(activitiesSelected != nil) {
-			print("ola")
 			goWhenTrue = true
 			return
 		}

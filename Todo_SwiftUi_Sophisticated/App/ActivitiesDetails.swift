@@ -87,7 +87,7 @@ struct ActivitiesDetails: View {
 						
 					}// HStack
 					Spacer()
-					TextField(text: $textField) {
+					TextField(text: $textField,axis: .vertical) {
 						Text("Your description,it's optional")
 					}
 					.font(.custom("Inter-Regular", size: 18))
