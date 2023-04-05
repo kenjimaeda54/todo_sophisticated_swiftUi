@@ -121,5 +121,17 @@ var actives: [ActivitiesModel] {
 ```
 - 
 
+## 
+- Para fazer um TextField [dinâmico](https://sarunw.com/posts/swiftui-multiline-textfield/) na altura
+
+
+```swift
+TextField(text: $textField,axis: .vertical) {
+		Text("Your description,it's optional")
+}
+
+
+```
+
 
 
