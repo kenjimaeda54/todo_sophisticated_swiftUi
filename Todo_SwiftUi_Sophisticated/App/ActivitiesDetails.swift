@@ -6,24 +6,58 @@
 //
 
 import SwiftUI
+import RealmSwift
+import AlertToast
 
 struct ActivitiesDetails: View {
 	//MARK: Properties
+	@Environment(\.realm) var realm
 	@Binding  var categoryActivies: CategoryActivities?
 	@State private var  activies: CategoryActivities? = nil
 	@State private var textField = ""
 	@State private var date = Date()
+	@State private var showToast = false
 	@State private var showingDatePicker = false
+	@State private var showError = false
+	@State private var selectedDate  = Date()
+	@State var goWhenTrue: Bool = false
+	let formatedDate = DateFormatter()
 	
 	
+	//MRK: - Functions
 	func handleAddActivy() {
+		if(textField.isEmpty) {
+			showError.toggle()
+			return
+		}
 		
+		let listColorsActivy = [
+			"cyan",
+			"lightGreenAccent",
+			"limeAccent",
+			"pinkAccent",
+			"indigoAccent",
+			"amberAccent",
+			"purpleShade",
+			"greenShade"
+		]
+		let randomColors = Int.random(in: 1..<8)
+		
+		try? realm.write {
+			let realmActivies = ActivitiesModel()
+			realmActivies.date = selectedDate
+			realmActivies.descriptionActivy = textField
+			realmActivies.idCategoryActivy = activies?.id ?? 0
+			realmActivies.color = listColorsActivy[randomColors]
+			realm.add(realmActivies)
+		}
+		
+		goWhenTrue.toggle()
 	}
 	
 	func handleOpenDatePicker() {
 		showingDatePicker.toggle()
 	}
-	
 	
 	
 	var body: some View {
@@ -37,7 +71,7 @@ struct ActivitiesDetails: View {
 						Spacer()
 						HStack{
 							Button(action: handleOpenDatePicker){
-								Text("25 Feb")
+								Text("\(selectedDate.formatted(.dateTime.day(.twoDigits).month(.abbreviated).locale(Locale(identifier: "en-us"))))")
 									.font(.custom("Inter-Medium", size: 17))
 									.foregroundColor(ColorsApp.secondaryColor)
 								Image(systemName: "calendar")
@@ -72,7 +106,7 @@ struct ActivitiesDetails: View {
 				.padding(.horizontal,20)
 				.background(ColorsApp.primaryColor)
 				.sheet(isPresented: $showingDatePicker) {
-					CalendarRepresentable()
+					CalendarRepresentable(selectedDate: $selectedDate)
 						.padding()
 						.background(
 							RoundedRectangle(cornerRadius: 25.0)
@@ -82,7 +116,13 @@ struct ActivitiesDetails: View {
 						.frame(height: 350)
 						.padding()
 				}
-				
+				.navigationDestination(isPresented: $goWhenTrue) {
+					ShowTasks()
+				}
+				.toast(isPresenting: $showError) {
+					
+					AlertToast(type: .error(Color.red), title: "Activities without description are not allowed")
+				}
 				
 				
 			}// NavigationStck
@@ -93,6 +133,7 @@ struct ActivitiesDetails: View {
 		.toolbar(.hidden,for: .navigationBar)
 		.onAppear(){
 			activies = categoryActivies
+			
 		}
 		
 	}

@@ -16,4 +16,12 @@ struct ColorsApp {
 	static let secondaryColor = Color("secondaryColor")
 	static let whiteColor = Color("whiteColor")
 	static let whiteColor100 = Color("whiteColor100")
+	static let cyantAccent = Color("cyan")
+	static let lightGreenAccent = Color("lightGreenAccent")
+	static let limeAccent = Color("limeAccent")
+	static let pinkAccent = Color("pinkAccent")
+	static let indigoAccent = Color("indigoAccent")
+	static let amberAccent = Color("amberAccent")
+	static let purpleAccent = Color("purpleShade")
+	static let greenAccent = Color("greenShade")
 }

@@ -11,8 +11,8 @@ import SwiftUI
 import FSCalendar
 
 struct CalendarRepresentable: UIViewRepresentable {
-
-
+	@Binding var selectedDate: Date
+ 
 	var calendar = FSCalendar()
 	
 	//quando preciso de usar contexto ou self preciso criar um coordinator
@@ -20,6 +20,10 @@ struct CalendarRepresentable: UIViewRepresentable {
 		calendar.delegate = context.coordinator
 		calendar.dataSource = context.coordinator
 		calendar.appearance.todayColor = UIColor(ColorsApp.secondaryColor) // Cannot assign value of type 'Color' to type 'UIColor'
+		calendar.appearance.titleFont = UIFont(name: "Inter-Regular", size: 17)
+		calendar.appearance.headerTitleFont = UIFont(name: "Inter-Bold", size: 19)
+		calendar.appearance.caseOptions = [.headerUsesCapitalized]
+		calendar.locale = Locale(identifier: "en-us")
 		return calendar
 	}
 	
@@ -54,7 +58,8 @@ struct CalendarRepresentable: UIViewRepresentable {
 		init(_ parent: CalendarRepresentable) {
 			self.parent = parent
 		}
-		
+		 
+	 
 		
 		//aqui vou ter o acesso ao metodos disponivel no calendar delegate e data source
 		
@@ -66,6 +71,13 @@ struct CalendarRepresentable: UIViewRepresentable {
 			 return endDate
 		}
 		
+		//metodo quando e acionado uma data
+		func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
+			//parent vou possuir acesso a todas as variaveis dessa classe
+			//repare que tem um bind la em cima escrito selectedDate
+			print(date)
+			parent.selectedDate = date
+		}
 	
 	
 		

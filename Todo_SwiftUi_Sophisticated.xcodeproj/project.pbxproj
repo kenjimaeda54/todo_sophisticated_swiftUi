@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FE6A68662A09214E86F9705 /* Pods_Todo_SwiftUi_Sophisticated.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FFC55BB2ACBA03F2BB0E2F6 /* Pods_Todo_SwiftUi_Sophisticated.framework */; };
 		811DC7B629D314EC0041ED4B /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811DC7B529D314EC0041ED4B /* ButtonDefault.swift */; };
+		8132354329D8CA8A005B0D20 /* ShowTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8132354229D8CA8A005B0D20 /* ShowTasks.swift */; };
+		8132354829D8EB7F005B0D20 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8132354729D8EB7F005B0D20 /* Schedule.swift */; };
+		813BC05429DAEA6100BF4A2A /* JZCalendarWeekView in Frameworks */ = {isa = PBXBuildFile; productRef = 813BC05329DAEA6100BF4A2A /* JZCalendarWeekView */; };
+		813BC05729DAFCC300BF4A2A /* ECWeekView in Frameworks */ = {isa = PBXBuildFile; productRef = 813BC05629DAFCC300BF4A2A /* ECWeekView */; };
 		8172729929D4F2980089E058 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 8172729829D4F2980089E058 /* FSCalendar */; };
 		818B907A29D3A1FB00A3C889 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818B907929D3A1FB00A3C889 /* Calendar.swift */; };
 		819DF72229B7F5AB007333F4 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 819DF72129B7F5AB007333F4 /* Realm */; };
@@ -35,7 +40,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B5568C85316B28A9F145D14 /* Pods-Todo_SwiftUi_Sophisticated.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todo_SwiftUi_Sophisticated.debug.xcconfig"; path = "Target Support Files/Pods-Todo_SwiftUi_Sophisticated/Pods-Todo_SwiftUi_Sophisticated.debug.xcconfig"; sourceTree = "<group>"; };
 		811DC7B529D314EC0041ED4B /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
+		8132354229D8CA8A005B0D20 /* ShowTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTasks.swift; sourceTree = "<group>"; };
+		8132354729D8EB7F005B0D20 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Schedule.swift; path = Todo_SwiftUi_Sophisticated/App/Schedule.swift; sourceTree = SOURCE_ROOT; };
 		818B907929D3A1FB00A3C889 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		819DF72529B7F677007333F4 /* ActivitiesDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesDetails.swift; sourceTree = "<group>"; };
 		819DF72D29B81978007333F4 /* ActivitiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActivitiesModel.swift; path = Todo_SwiftUi_Sophisticated/App/ActivitiesModel.swift; sourceTree = SOURCE_ROOT; };
@@ -58,6 +66,8 @@
 		81DD8FEB29B6C97300092CD0 /* ActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActivitiesView.swift; path = Todo_SwiftUi_Sophisticated/App/ActivitiesView.swift; sourceTree = SOURCE_ROOT; };
 		81DD8FED29B6D12F00092CD0 /* gridActivities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = gridActivities.swift; path = Todo_SwiftUi_Sophisticated/App/gridActivities.swift; sourceTree = SOURCE_ROOT; };
 		81DD8FF029B6D15800092CD0 /* CategoryActivities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryActivities.swift; path = Todo_SwiftUi_Sophisticated/App/CategoryActivities.swift; sourceTree = SOURCE_ROOT; };
+		8FFC55BB2ACBA03F2BB0E2F6 /* Pods_Todo_SwiftUi_Sophisticated.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todo_SwiftUi_Sophisticated.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4DA9B978A8D1C2B8EA5EE4 /* Pods-Todo_SwiftUi_Sophisticated.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todo_SwiftUi_Sophisticated.release.xcconfig"; path = "Target Support Files/Pods-Todo_SwiftUi_Sophisticated/Pods-Todo_SwiftUi_Sophisticated.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,19 +75,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				813BC05429DAEA6100BF4A2A /* JZCalendarWeekView in Frameworks */,
 				819DF72C29B80DD5007333F4 /* AlertToast in Frameworks */,
 				8172729929D4F2980089E058 /* FSCalendar in Frameworks */,
 				819DF72429B7F5AB007333F4 /* RealmSwift in Frameworks */,
 				819DF72229B7F5AB007333F4 /* Realm in Frameworks */,
+				0FE6A68662A09214E86F9705 /* Pods_Todo_SwiftUi_Sophisticated.framework in Frameworks */,
+				813BC05729DAFCC300BF4A2A /* ECWeekView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F33C6B1F843E95616756361 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FFC55BB2ACBA03F2BB0E2F6 /* Pods_Todo_SwiftUi_Sophisticated.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7072A59BD734C9F117D11702 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				6B5568C85316B28A9F145D14 /* Pods-Todo_SwiftUi_Sophisticated.debug.xcconfig */,
+				EB4DA9B978A8D1C2B8EA5EE4 /* Pods-Todo_SwiftUi_Sophisticated.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -88,6 +111,7 @@
 				81DD8FC229B6BE2800092CD0 /* Todo_SwiftUi_Sophisticated */,
 				81DD8FC129B6BE2800092CD0 /* Products */,
 				7072A59BD734C9F117D11702 /* Pods */,
+				1F33C6B1F843E95616756361 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +151,7 @@
 				81DD8FC329B6BE2800092CD0 /* Todo_SwiftUi_SophisticatedApp.swift */,
 				81DD8FC529B6BE2800092CD0 /* Home.swift */,
 				819DF72529B7F677007333F4 /* ActivitiesDetails.swift */,
+				8132354229D8CA8A005B0D20 /* ShowTasks.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -137,6 +162,7 @@
 				81DD8FEB29B6C97300092CD0 /* ActivitiesView.swift */,
 				811DC7B529D314EC0041ED4B /* ButtonDefault.swift */,
 				818B907929D3A1FB00A3C889 /* Calendar.swift */,
+				8132354729D8EB7F005B0D20 /* Schedule.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81DD8FCE29B6BE2900092CD0 /* Build configuration list for PBXNativeTarget "Todo_SwiftUi_Sophisticated" */;
 			buildPhases = (
+				364351025D275E8D09846079 /* [CP] Check Pods Manifest.lock */,
 				81DD8FBC29B6BE2800092CD0 /* Sources */,
 				81DD8FBD29B6BE2800092CD0 /* Frameworks */,
 				81DD8FBE29B6BE2800092CD0 /* Resources */,
+				2499753BAFBFF16DDC293BA5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,6 +233,8 @@
 				819DF72329B7F5AB007333F4 /* RealmSwift */,
 				819DF72B29B80DD5007333F4 /* AlertToast */,
 				8172729829D4F2980089E058 /* FSCalendar */,
+				813BC05329DAEA6100BF4A2A /* JZCalendarWeekView */,
+				813BC05629DAFCC300BF4A2A /* ECWeekView */,
 			);
 			productName = Todo_SwiftUi_Sophisticated;
 			productReference = 81DD8FC029B6BE2800092CD0 /* Todo_SwiftUi_Sophisticated.app */;
@@ -235,9 +265,11 @@
 			);
 			mainGroup = 81DD8FB729B6BE2800092CD0;
 			packageReferences = (
-				819DF72029B7F5AB007333F4 /* XCRemoteSwiftPackageReference "realm-swift" */,
-				819DF72A29B80DD5007333F4 /* XCRemoteSwiftPackageReference "AlertToast" */,
-				8172729729D4F2980089E058 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+				819DF72029B7F5AB007333F4 /* XCRemoteSwiftPackageReference "realm-swift.git" */,
+				819DF72A29B80DD5007333F4 /* XCRemoteSwiftPackageReference "AlertToast.git" */,
+				8172729729D4F2980089E058 /* XCRemoteSwiftPackageReference "FSCalendar.git" */,
+				813BC05229DAEA6100BF4A2A /* XCRemoteSwiftPackageReference "JZCalendarWeekView.git" */,
+				813BC05529DAFCC300BF4A2A /* XCRemoteSwiftPackageReference "swift-week-view" */,
 			);
 			productRefGroup = 81DD8FC129B6BE2800092CD0 /* Products */;
 			projectDirPath = "";
@@ -269,6 +301,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2499753BAFBFF16DDC293BA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Todo_SwiftUi_Sophisticated/Pods-Todo_SwiftUi_Sophisticated-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Todo_SwiftUi_Sophisticated/Pods-Todo_SwiftUi_Sophisticated-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Todo_SwiftUi_Sophisticated/Pods-Todo_SwiftUi_Sophisticated-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		364351025D275E8D09846079 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Todo_SwiftUi_Sophisticated-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		81DD8FBC29B6BE2800092CD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -276,6 +350,7 @@
 			files = (
 				81DD8FEA29B6C25400092CD0 /* ColorsApp.swift in Sources */,
 				811DC7B629D314EC0041ED4B /* ButtonDefault.swift in Sources */,
+				8132354829D8EB7F005B0D20 /* Schedule.swift in Sources */,
 				81DD8FF129B6D15800092CD0 /* CategoryActivities.swift in Sources */,
 				81DD8FC629B6BE2800092CD0 /* Home.swift in Sources */,
 				81DD8FC429B6BE2800092CD0 /* Todo_SwiftUi_SophisticatedApp.swift in Sources */,
@@ -284,6 +359,7 @@
 				819DF72E29B81978007333F4 /* ActivitiesModel.swift in Sources */,
 				819DF72629B7F677007333F4 /* ActivitiesDetails.swift in Sources */,
 				818B907A29D3A1FB00A3C889 /* Calendar.swift in Sources */,
+				8132354329D8CA8A005B0D20 /* ShowTasks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +482,7 @@
 		};
 		81DD8FCF29B6BE2900092CD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B5568C85316B28A9F145D14 /* Pods-Todo_SwiftUi_Sophisticated.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -421,6 +498,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,6 +514,7 @@
 		};
 		81DD8FD029B6BE2900092CD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4DA9B978A8D1C2B8EA5EE4 /* Pods-Todo_SwiftUi_Sophisticated.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +530,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,7 +568,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8172729729D4F2980089E058 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+		813BC05229DAEA6100BF4A2A /* XCRemoteSwiftPackageReference "JZCalendarWeekView.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zjfjack/JZCalendarWeekView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.2;
+			};
+		};
+		813BC05529DAFCC300BF4A2A /* XCRemoteSwiftPackageReference "swift-week-view" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/EvanCooper9/swift-week-view";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		8172729729D4F2980089E058 /* XCRemoteSwiftPackageReference "FSCalendar.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
 			requirement = {
@@ -496,7 +592,7 @@
 				minimumVersion = 2.0.0;
 			};
 		};
-		819DF72029B7F5AB007333F4 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+		819DF72029B7F5AB007333F4 /* XCRemoteSwiftPackageReference "realm-swift.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-swift.git";
 			requirement = {
@@ -504,7 +600,7 @@
 				minimumVersion = 10.36.0;
 			};
 		};
-		819DF72A29B80DD5007333F4 /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+		819DF72A29B80DD5007333F4 /* XCRemoteSwiftPackageReference "AlertToast.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/elai950/AlertToast.git";
 			requirement = {
@@ -515,24 +611,34 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		813BC05329DAEA6100BF4A2A /* JZCalendarWeekView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 813BC05229DAEA6100BF4A2A /* XCRemoteSwiftPackageReference "JZCalendarWeekView.git" */;
+			productName = JZCalendarWeekView;
+		};
+		813BC05629DAFCC300BF4A2A /* ECWeekView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 813BC05529DAFCC300BF4A2A /* XCRemoteSwiftPackageReference "swift-week-view" */;
+			productName = ECWeekView;
+		};
 		8172729829D4F2980089E058 /* FSCalendar */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8172729729D4F2980089E058 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			package = 8172729729D4F2980089E058 /* XCRemoteSwiftPackageReference "FSCalendar.git" */;
 			productName = FSCalendar;
 		};
 		819DF72129B7F5AB007333F4 /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 819DF72029B7F5AB007333F4 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			package = 819DF72029B7F5AB007333F4 /* XCRemoteSwiftPackageReference "realm-swift.git" */;
 			productName = Realm;
 		};
 		819DF72329B7F5AB007333F4 /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 819DF72029B7F5AB007333F4 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			package = 819DF72029B7F5AB007333F4 /* XCRemoteSwiftPackageReference "realm-swift.git" */;
 			productName = RealmSwift;
 		};
 		819DF72B29B80DD5007333F4 /* AlertToast */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 819DF72A29B80DD5007333F4 /* XCRemoteSwiftPackageReference "AlertToast" */;
+			package = 819DF72A29B80DD5007333F4 /* XCRemoteSwiftPackageReference "AlertToast.git" */;
 			productName = AlertToast;
 		};
 /* End XCSwiftPackageProductDependency section */

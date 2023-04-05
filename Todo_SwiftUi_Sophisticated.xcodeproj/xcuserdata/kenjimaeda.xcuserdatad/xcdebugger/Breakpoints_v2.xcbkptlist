@@ -14,8 +14,8 @@
             filePath = "Todo_SwiftUi_Sophisticated/App/Home.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "Todo_SwiftUi_Sophisticated/App/Home.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -46,103 +46,10 @@
             filePath = "Todo_SwiftUi_Sophisticated/App/Home.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
             landmarkName = "body"
             landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E7F3AFE1-E128-4DBD-AC97-C01D3F20FD49"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Todo_SwiftUi_Sophisticated/App/ActivitiesDetails.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
-            landmarkName = "ActivitiesDetails"
-            landmarkType = "14">
-            <Locations>
-               <Location
-                  uuid = "E7F3AFE1-E128-4DBD-AC97-C01D3F20FD49 - 434db9087cfae094"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todo_SwiftUi_Sophisticated.ActivitiesDetails.categoryActivies.getter : Swift.Optional&lt;Todo_SwiftUi_Sophisticated.CategoryActivities&gt;"
-                  moduleName = "Todo_SwiftUi_Sophisticated"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Todo_SwiftUi_Sophisticated/Todo_SwiftUi_Sophisticated/App/ActivitiesDetails.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "364">
-               </Location>
-               <Location
-                  uuid = "E7F3AFE1-E128-4DBD-AC97-C01D3F20FD49 - 38025f5318ae5be0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todo_SwiftUi_Sophisticated.ActivitiesDetails.categoryActivies.setter : Swift.Optional&lt;Todo_SwiftUi_Sophisticated.CategoryActivities&gt;"
-                  moduleName = "Todo_SwiftUi_Sophisticated"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Todo_SwiftUi_Sophisticated/Todo_SwiftUi_Sophisticated/App/ActivitiesDetails.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "248">
-               </Location>
-               <Location
-                  uuid = "E7F3AFE1-E128-4DBD-AC97-C01D3F20FD49 - 59b26570251a19e7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todo_SwiftUi_Sophisticated.ActivitiesDetails.categoryActivies.modify : Swift.Optional&lt;Todo_SwiftUi_Sophisticated.CategoryActivities&gt;"
-                  moduleName = "Todo_SwiftUi_Sophisticated"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Todo_SwiftUi_Sophisticated/Todo_SwiftUi_Sophisticated/App/ActivitiesDetails.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "0">
-               </Location>
-               <Location
-                  uuid = "E7F3AFE1-E128-4DBD-AC97-C01D3F20FD49 - 277e4300ef9a28e0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todo_SwiftUi_Sophisticated.ActivitiesDetails.categoryActivies.modify : Swift.Optional&lt;Todo_SwiftUi_Sophisticated.CategoryActivities&gt; with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "Todo_SwiftUi_Sophisticated"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Todo_SwiftUi_Sophisticated/Todo_SwiftUi_Sophisticated/App/ActivitiesDetails.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "40">
-               </Location>
-               <Location
-                  uuid = "E7F3AFE1-E128-4DBD-AC97-C01D3F20FD49 - 2638f17fe83b41f7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todo_SwiftUi_Sophisticated.ActivitiesDetails.$categoryActivies.getter : SwiftUI.Binding&lt;Swift.Optional&lt;Todo_SwiftUi_Sophisticated.CategoryActivities&gt;&gt;"
-                  moduleName = "Todo_SwiftUi_Sophisticated"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Todo_SwiftUi_Sophisticated/Todo_SwiftUi_Sophisticated/App/ActivitiesDetails.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "388">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -155,8 +62,8 @@
             filePath = "Todo_SwiftUi_Sophisticated/App/Home.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
@@ -191,195 +98,6 @@
                   offsetFromSymbolStart = "200">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "82AB8680-CE56-4DCA-819D-2B8122B25629"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Todo_SwiftUi_Sophisticated/App/ActivitiesDetails.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "ActivitiesDetails"
-            landmarkType = "14">
-            <Locations>
-               <Location
-                  uuid = "82AB8680-CE56-4DCA-819D-2B8122B25629 - 38e106fe1a3301b4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "property wrapper backing initializer of Todo_SwiftUi_Sophisticated.ActivitiesDetails.date : Foundation.Date"
-                  moduleName = "Todo_SwiftUi_Sophisticated"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Todo_SwiftUi_Sophisticated/Todo_SwiftUi_Sophisticated/App/ActivitiesDetails.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "92">
-               </Location>
-               <Location
-                  uuid = "82AB8680-CE56-4DCA-819D-2B8122B25629 - 8169ad54eac90a50"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todo_SwiftUi_Sophisticated.ActivitiesDetails.init(categoryActivies: SwiftUI.Binding&lt;Swift.Optional&lt;Todo_SwiftUi_Sophisticated.CategoryActivities&gt;&gt;) -&gt; Todo_SwiftUi_Sophisticated.ActivitiesDetails"
-                  moduleName = "Todo_SwiftUi_Sophisticated"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Todo_SwiftUi_Sophisticated/Todo_SwiftUi_Sophisticated/App/ActivitiesDetails.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "312">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "544EDA10-0DA2-44B1-9963-27914EBA4C7F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Todo_SwiftUi_Sophisticated/App/ActivitiesDetails.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
-            landmarkName = "ActivitiesDetails"
-            landmarkType = "14">
-            <Locations>
-               <Location
-                  uuid = "544EDA10-0DA2-44B1-9963-27914EBA4C7F - 434db9087cfae094"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todo_SwiftUi_Sophisticated.ActivitiesDetails.categoryActivies.getter : Swift.Optional&lt;Todo_SwiftUi_Sophisticated.CategoryActivities&gt;"
-                  moduleName = "Todo_SwiftUi_Sophisticated"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Todo_SwiftUi_Sophisticated/Todo_SwiftUi_Sophisticated/App/ActivitiesDetails.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "364">
-               </Location>
-               <Location
-                  uuid = "544EDA10-0DA2-44B1-9963-27914EBA4C7F - 38025f5318ae5be0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todo_SwiftUi_Sophisticated.ActivitiesDetails.categoryActivies.setter : Swift.Optional&lt;Todo_SwiftUi_Sophisticated.CategoryActivities&gt;"
-                  moduleName = "Todo_SwiftUi_Sophisticated"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Todo_SwiftUi_Sophisticated/Todo_SwiftUi_Sophisticated/App/ActivitiesDetails.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "248">
-               </Location>
-               <Location
-                  uuid = "544EDA10-0DA2-44B1-9963-27914EBA4C7F - 59b26570251a19e7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todo_SwiftUi_Sophisticated.ActivitiesDetails.categoryActivies.modify : Swift.Optional&lt;Todo_SwiftUi_Sophisticated.CategoryActivities&gt;"
-                  moduleName = "Todo_SwiftUi_Sophisticated"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Todo_SwiftUi_Sophisticated/Todo_SwiftUi_Sophisticated/App/ActivitiesDetails.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "0">
-               </Location>
-               <Location
-                  uuid = "544EDA10-0DA2-44B1-9963-27914EBA4C7F - 277e4300ef9a28e0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todo_SwiftUi_Sophisticated.ActivitiesDetails.categoryActivies.modify : Swift.Optional&lt;Todo_SwiftUi_Sophisticated.CategoryActivities&gt; with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "Todo_SwiftUi_Sophisticated"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Todo_SwiftUi_Sophisticated/Todo_SwiftUi_Sophisticated/App/ActivitiesDetails.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "40">
-               </Location>
-               <Location
-                  uuid = "544EDA10-0DA2-44B1-9963-27914EBA4C7F - 2638f17fe83b41f7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Todo_SwiftUi_Sophisticated.ActivitiesDetails.$categoryActivies.getter : SwiftUI.Binding&lt;Swift.Optional&lt;Todo_SwiftUi_Sophisticated.CategoryActivities&gt;&gt;"
-                  moduleName = "Todo_SwiftUi_Sophisticated"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Todo_SwiftUi_Sophisticated/Todo_SwiftUi_Sophisticated/App/ActivitiesDetails.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "388">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9B1DF816-B8B9-4747-AF6F-798BAD9A60C9"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Todo_SwiftUi_Sophisticated/App/ActivitiesDetails.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "handleAddActivy()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C065FD6B-3E67-4354-9D2E-08C06C56061D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Todo_SwiftUi_Sophisticated/App/ActivitiesDetails.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "handleOpenDatePicker()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "713F4FB5-F87A-4776-870A-D31F65EC9A89"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Todo_SwiftUi_Sophisticated/App/ActivitiesDetails.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "ActivitiesDetails"
-            landmarkType = "14">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

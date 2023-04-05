@@ -6,6 +6,6 @@ target 'Todo_SwiftUi_Sophisticated' do
   use_frameworks!
 
   # Pods for Todo_SwiftUi_Sophisticated
-  pod 'DatePicker', '~> 1.3.0'
+  pod 'SwiftDate', '4.5.0'
 
 end

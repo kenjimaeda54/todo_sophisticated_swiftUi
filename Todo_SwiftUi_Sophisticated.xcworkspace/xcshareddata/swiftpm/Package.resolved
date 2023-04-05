@@ -10,6 +10,42 @@
       }
     },
     {
+      "identity" : "ectimelineview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/EvanCooper9/ECTimelineView",
+      "state" : {
+        "revision" : "9ff1f26167c5208ea3353a545a0b08ca7799dc57",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "ecuicollectionviewmultidelegate",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/EvanCooper9/ECUICollectionViewMultiDelegate",
+      "state" : {
+        "revision" : "15dd90c5c2b1e92f0a8452326a1a0a3190f27134",
+        "version" : "0.1.2"
+      }
+    },
+    {
+      "identity" : "fscalendar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/WenchaoD/FSCalendar.git",
+      "state" : {
+        "revision" : "0fbdec5172fccb90f707472eeaea4ffe095278f6",
+        "version" : "2.8.4"
+      }
+    },
+    {
+      "identity" : "jzcalendarweekview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zjfjack/JZCalendarWeekView.git",
+      "state" : {
+        "revision" : "6177be0ddb1257711186b8a282dfef5dcb274786",
+        "version" : "0.7.2"
+      }
+    },
+    {
       "identity" : "realm-core",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/realm/realm-core.git",
@@ -25,6 +61,24 @@
       "state" : {
         "revision" : "21b1c2844965ba5e3a0d80c43358d5ea08d934c6",
         "version" : "10.37.1"
+      }
+    },
+    {
+      "identity" : "swift-week-view",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/EvanCooper9/swift-week-view",
+      "state" : {
+        "revision" : "d4f84901c28d636a2645e5d36e85394e084c03a7",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "swiftdate",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/malcommac/SwiftDate.git",
+      "state" : {
+        "revision" : "ed308a5afb97a3874300b761dad6e9966269e3e7",
+        "version" : "5.1.0"
       }
     }
   ],

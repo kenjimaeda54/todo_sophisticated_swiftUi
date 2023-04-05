@@ -27,10 +27,13 @@ struct Home: View {
 	
 	func handleSelectActivity()  {
 		if(activitiesSelected != nil) {
+			print("ola")
 			goWhenTrue = true
 			return
 		}
+		
 		showToast = true
+		print(showToast)
 		
 	}
 	
@@ -92,6 +95,7 @@ struct Home: View {
 				}
 				.onAppear {
 					switchGridLayout()
+					goWhenTrue = false
 				}
 				.onDisappear(perform: {
 					activitiesSelected = nil

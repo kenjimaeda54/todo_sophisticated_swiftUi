@@ -12,7 +12,8 @@ class ActivitiesModel: Object,ObjectKeyIdentifiable  {
 	
 	@Persisted(primaryKey: true) var _id: ObjectId
 	@Persisted var idCategoryActivy = 0
-	@Persisted var date =  ""
+	@Persisted var date =  Date()
 	@Persisted var descriptionActivy = ""
+	@Persisted var color = ""
 	
 }
