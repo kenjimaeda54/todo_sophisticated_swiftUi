@@ -80,7 +80,7 @@ struct CalendarRepresentable: UIViewRepresentable {
 ```
 ## 
  
-- Prara navegar a proxima tela podemos sem usar o método trinacional ou usamos  o método navigationDestination
+- Prara navegar a proxima tela podemos podemos usar o método trinacional ou  navigationDestination
 - Repara que no método onAppear retorno o estado do goWhenTrue com valor inicial, se não quando voltar na tela não consigo navegar
 - Para acrescentar um novo button para voltar podemos usar o método toolbar
 - Outra vantagem da propriedade computada e poder de reagir a mudanças como exemplo do selectedDate
