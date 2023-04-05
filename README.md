@@ -9,7 +9,7 @@
 - Repara que endDtae e uma propiredade computada porque preciso que statDate esteja instanciado
 - Dentro da classe coordinator tenho acesso a todos métodos do delegate e datasource
 
-```swfit
+```swift
 struct CalendarRepresentable: UIViewRepresentable {
 	@Binding var selectedDate: Date
  
