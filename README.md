@@ -1,5 +1,5 @@
 # Todo 
--  Pequena aplicação em Swftui , usuário escolhe sua atividade, coloca uma descrição e a data, por fim pode consultar no calendário os eventos para o dia selecionado
+-  Pequena aplicação em Swftui ,usuário escolhe sua atividade, coloca uma descrição e a data, por fim pode consultar no calendário os eventos para o dia selecionado
 
 # Feature
 - Reforcei o conceito de UIViewRepresentable , ideia e converter componentes em UIKit pra Swiftui
