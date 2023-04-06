@@ -4,9 +4,9 @@
 # Feature
 - Reforcei o conceito de UIViewRepresentable , ideia e converter componentes em UIKit pra Swiftui
 - Quando o componente precisa do uso de delegate ou datasource usamos o makeCoordinator
-- Quando você tem uma propriedade que depende de outra para ser definida ideal e criar propriedade computadas,
+- Quando você tem uma propriedade que depende de outra para ser definida, ideal e criar propriedade computadas,
 - [Link](https://www.avanderlee.com/swift/computed-property/#:~:text=Computed%20properties%20are%20part%20of,computes%20its%20property%20upon%20request) para consulta sobre as propriedades computadas
-- Repara que endDtae e uma propiredade computada porque preciso que statDate esteja instanciado
+- Repara que endDtae e uma propiredade computada, porque preciso que statDate esteja instanciado
 - Dentro da classe coordinator tenho acesso a todos métodos do delegate e datasource
 
 ```swift
@@ -80,7 +80,7 @@ struct CalendarRepresentable: UIViewRepresentable {
 ```
 ## 
  
-- Prara navegar a proxima tela podemos podemos usar o método trinacional ou  navigationDestination
+- Para navegar a proxima tela podemos usar o método tradicional ou navigationDestination
 - Repara que no método onAppear retorno o estado do goWhenTrue com valor inicial, se não quando voltar na tela não consigo navegar
 - Para acrescentar um novo button para voltar podemos usar o método toolbar
 - Outra vantagem da propriedade computada e poder de reagir a mudanças como exemplo do selectedDate
