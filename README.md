@@ -127,7 +127,7 @@ var actives: [ActivitiesModel] {
 
 ```swift
 TextField(text: $textField,axis: .vertical) {
-		Text("Your description,it's optional")
+	Text("Your description,it's optional")
 }
 
 
